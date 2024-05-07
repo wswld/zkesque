@@ -1,0 +1,18 @@
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 0.5; }
+}
+
+.image-container {
+    vertical-align: middle;
+    background-color: black;
+  }
+
+  .loading-image {
+    position: absolute;
+    top: 50%;                /* 50% from the top of the screen */
+    left: 50%;               /* 50% from the left of the screen */
+    transform: translate(-50%, -50%); /* Offset the image back by half its width and height */
+    animation: blink 3s forwards infinite ease-in-out; /* Adjust time as needed */
+    height: 50%;
+  }
