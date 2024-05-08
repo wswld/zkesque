@@ -1,5 +1,5 @@
 import React from 'react';
-import './Luhmann.css'; // Import the CSS file for styles
+import './Luhmann.css';
 
 const Luhmann = ({ src, alt }) => {
   return (
