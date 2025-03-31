@@ -30,7 +30,7 @@ function Chain() {
       };
 
     const handleAddNote = (e) => {
-        if (e.key === 'Enter') {
+        if (e.key === 'Enter' && !e.shiftKey) {
             addNote();
         }
     };
